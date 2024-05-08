@@ -1,0 +1,18 @@
+01) npm install express mysql nodemon
+02) package.json --> "main": "index.js", "type": "module",
+03) cmd --> node index.js (Every time run this command for new updates)
+04) package.json --> add start with nodemone
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+4.1) cmd --> npm start (Once run this command it execute every time for new updates)
+[To over come (3) problem we use nodemone]
+05) For authentication problem use mysql2 or 
+MySQL books table --> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'current password';
+06) Test POST method using thunder client
+07) Can not send any data directly in Express Server. Use middleware --> app.use(express.json())
+08) Frontend --> npx create-react-app . 
+09) npm install react-router-dom
+10) Fetching all data from backend server --> npm install axios 
+11) Backend server not allowing axios for fetching. So that in backend--> npm install cors
